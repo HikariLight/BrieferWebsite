@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    --darkBlue: #364954;
+    --lightBlue: #DEF0F7;
+}
+body{
+    margin: auto;
+    font-family: Nunito, Helvetica, Arial;
+    font-size: 1.25em;
+
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1em;
+
+}
+
+nav{
+    text-align: right;
+    margin: 0 1em;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul a {
+    color: var(--darkBlue);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+main section{
+    margin: 1em;
+}
+
+section h1, h3{
+    margin: 0.5em 0;
+}
+
+button{
+    padding: 1.5em 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 2em;
+    text-align: center;
+}
+
+#title{
+    color: var(--darkBlue);
+    display: inline;
+}
+
+#subtitle{
+    opacity: 0.5;
+}
+
+#downloadButton{
+    color: var(--darkBlue);
+    background-color: var(--lightBlue);
+    border: 1px solid var(--lightBlue);
+    border-radius: 25px;
+    /* display: block; */
+}
+
+#downloadButton a{
+    color: var(--darkBlue);
+}
