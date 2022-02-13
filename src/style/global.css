@@ -22,7 +22,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1em;
-
+    min-height: 5vh;
 }
 
 nav{
@@ -46,13 +46,9 @@ nav ul li {
 main{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
     text-align: center;
-}
-
-main section{
-    margin: 1em;
+    min-height: 87vh;
 }
 
 section h1, h3{
@@ -71,7 +67,7 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 2em;
+    min-height: 5vh;
     text-align: center;
 }
 
@@ -82,6 +78,11 @@ footer{
 
 #subtitle{
     opacity: 0.5;
+}
+
+#mainDiagram{
+    display: block;
+    margin: 0 auto;
 }
 
 #downloadButton{

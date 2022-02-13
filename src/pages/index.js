@@ -6,12 +6,13 @@ import "../style/global.css"
 const IndexPage = () => {
   return (
     <Layout>
-        <title>ClearView</title>
-        <img src="main.png" alt="Explainer diagram"></img>
+        <title>Lintern | Home</title>
+        
+        <img id="mainDiagram" src="main.png" alt="Explainer diagram"></img>
         <section>
           <h1>Make doing research easier</h1>
           <h3 id="subtitle">Simplify/Summarise/Fuse your web pages</h3>
-          <button id="downloadButton"><Link to="#">Download</Link></button>
+          <button id="downloadButton"><Link to="https://chrome.google.com/webstore">Download</Link></button>
         </section>
     </Layout>
   )
