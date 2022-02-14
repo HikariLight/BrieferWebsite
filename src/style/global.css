@@ -10,10 +10,13 @@ html{
     --lightBlue: #DEF0F7;
 }
 body{
-    margin: auto;
     font-family: Nunito, Helvetica, Arial;
     font-size: 1.5em;
     overflow: hidden;
+}
+
+.container{
+    height: 100vh;
     display: grid;
     grid-template-rows: 1fr auto 1fr;
 }
@@ -48,7 +51,7 @@ main{
     grid-template-rows: 1fr 1fr;
     align-items: center;
     text-align: center;
-    min-height: 87vh;
+    height: 85vh;
 }
 
 section h1, h3{
@@ -64,10 +67,11 @@ a{
 }
 
 footer{
-    position: absolute;
     bottom: 0;
+    position: absolute;
     width: 100%;
-    min-height: 5vh;
+    margin: 1em 0;
+    /* min-height: 5vh; */
     text-align: center;
 }
 
@@ -90,7 +94,6 @@ footer{
     background-color: var(--lightBlue);
     border: 1px solid var(--lightBlue);
     border-radius: 25px;
-    /* display: block; */
 }
 
 #downloadButton a{

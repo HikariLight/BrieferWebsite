@@ -5,7 +5,7 @@ import "../style/global.css"
 
 const Layout = ({children}) => {
     return(
-        <div>
+        <div className="container">
             <Header />
                 <main>
                 { children }
