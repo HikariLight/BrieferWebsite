@@ -1,12 +1,15 @@
 import * as React from "react"
 import "../style/global.css"
 
-const FeatureCard = () => {
+const FeatureCard = ({imgLink, feature, featureText}) => {
     return(
-        <section>
-            <img src="#"></img>
-            <h3>Feature</h3>
-            <p>Feature Text</p>
+        <section className = "featureCard">
+            <img className = "logo" src={imgLink} alt="logo"></img>
+            
+            <article className = "description">
+                <h3>{feature}</h3>
+                <p>{featureText}</p>
+            </article>
         </section>
     )
 }

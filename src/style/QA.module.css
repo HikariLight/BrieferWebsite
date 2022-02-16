@@ -1,0 +1,7 @@
+.questionStyle{
+    color: var(--darkBlue);
+}
+
+.answerStyle{
+    color: var(--lightBlue);
+}

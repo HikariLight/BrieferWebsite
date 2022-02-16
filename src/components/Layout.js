@@ -5,11 +5,9 @@ import "../style/global.css"
 
 const Layout = ({children}) => {
     return(
-        <div className="container">
+        <div>
             <Header />
-                <main>
                 { children }
-                </main>
             <Footer />
         </div>
     )
