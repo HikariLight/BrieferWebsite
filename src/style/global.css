@@ -7,7 +7,7 @@
 
 html{
     --darkBlue: #364954;
-    --lightBlue: #DEF0F7;
+    --lightBlue: #58adc9;
 }
 body{
     font-family: Nunito, Helvetica, Arial;
@@ -64,7 +64,8 @@ footer{
     bottom: 0;
     position: absolute;
     width: 100%;
-    margin: 1em 0;
+    font-size: 0.8em;
+    margin: 0.3em 0;
     min-height: 3vh;
     text-align: center;
 }
@@ -74,12 +75,17 @@ footer{
     display: inline;
 }
 
+#title a:visited{
+    color: inherit;
+}
+
 #subtitle{
     opacity: 0.5;
 }
 
 #mainDiagram{
-    display: block;
+    width: 60%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -157,6 +163,14 @@ footer{
 
     color: var(--darkBlue);
     border: 1px solid var(--darkBlue);
+}
+
+.contactCard a{
+    color: var(--darkBlue);
+}
+
+.contactCard a:hover{
+    color: var(--lightBlue);
 }
 
 .contactMain{
