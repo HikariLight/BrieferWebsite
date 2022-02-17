@@ -8,7 +8,7 @@ const IndexPage = () => {
     <Layout>
         <title>Lintern | Home</title>
         
-        <main>
+        <main className="indexMain">
           <img id="mainDiagram" src="main.png" alt="Explainer diagram"></img>
           <section>
             <h1>Make doing research easier</h1>

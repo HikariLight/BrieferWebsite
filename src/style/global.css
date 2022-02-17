@@ -45,10 +45,6 @@ nav ul li {
 }
 
 main{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-    text-align: center;
     height: 85vh;
 }
 
@@ -98,12 +94,20 @@ footer{
     color: var(--darkBlue);
 }
 
+.indexMain{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    /* height: 85vh; */
+}
+
 .featureCard{
     display: grid;
     grid-template-columns: 1fr 2fr;
 
     width: 80%;
-    height: 18vh;
+    height: 12vh;
     margin: 0 auto;
     padding: 1em;
 
@@ -131,4 +135,31 @@ footer{
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 1em;
     place-items: center;
+}
+
+.darkBlueText{
+    color: var(--darkBlue);
+}
+
+.opaqueDarkBlueText{
+    color: var(--darkBlue);
+    opacity: 0.6;
+}
+
+.contactCard{
+    display: grid;
+    place-items: center;
+    text-align: cneter;
+
+    margin: 0 auto;
+    padding: 1em;
+    width: 50%;
+
+    color: var(--darkBlue);
+    border: 1px solid var(--darkBlue);
+}
+
+.contactMain{
+    display: grid;
+    align-items: center;
 }
