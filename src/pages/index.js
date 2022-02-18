@@ -6,7 +6,7 @@ import "../style/global.css"
 const IndexPage = () => {
   return (
     <Layout>
-        <title>Lintern | Home</title>
+        <title>Briefer | Home</title>
         
         <main className="indexMain">
           <img id="mainDiagram" src="main.png" alt="Explainer diagram"></img>

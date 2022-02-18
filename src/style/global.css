@@ -31,7 +31,7 @@ nav{
     margin: 0 1em;
 }
 
-nav ul{
+ul{
     list-style: none;
 }
 
@@ -141,6 +141,10 @@ footer{
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 1em;
     place-items: center;
+}
+
+.QnA a{
+    color: var(--darkBlue);
 }
 
 .darkBlueText{

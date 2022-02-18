@@ -5,7 +5,7 @@ import "../style/global.css"
 const Header = () =>{
     return(
         <header>
-            <h1 id="title"><Link to="/">Lintern</Link></h1>
+            <h1 id="title"><Link to="/">Briefer</Link></h1>
             <nav>
                 <ul>
                     <li><Link to="/">Home</Link></li>

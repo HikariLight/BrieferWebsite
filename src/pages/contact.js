@@ -6,7 +6,7 @@ import "../style/global.css"
 const Contact = () => {
   return (
     <Layout>
-        <title>Lintern | Contact</title>
+        <title>Briefer | Contact</title>
 
         <main className="contactMain">
           <ContactCard></ContactCard>
