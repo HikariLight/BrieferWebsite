@@ -100,6 +100,19 @@ footer{
     color: var(--darkBlue);
 }
 
+#githubProfiles{
+    margin: 0.7em 0 0 0;
+}
+
+#githubProfiles li{
+    display: inline;
+    margin: 0 1em;
+}
+
+#githubProfiles a{
+    color: var(--darkBlue);
+}
+
 .indexMain{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -141,10 +154,6 @@ footer{
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 1em;
     place-items: center;
-}
-
-.QnA a{
-    color: var(--darkBlue);
 }
 
 .darkBlueText{

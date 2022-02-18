@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import "../style/global.css"
 
@@ -13,7 +12,7 @@ const IndexPage = () => {
           <section>
             <h1>Make doing research easier</h1>
             <h3 id="subtitle">Simplify/Summarise/Fuse your web pages</h3>
-            <button id="downloadButton"><Link to="https://chrome.google.com/webstore">Download</Link></button>
+            <button id="downloadButton"><a href="https://chrome.google.com/webstore">Download</a></button>
           </section>
         </main>
     </Layout>
