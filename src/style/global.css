@@ -11,7 +11,7 @@ html{
 }
 body{
     font-family: Nunito, Helvetica, Arial;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     overflow: hidden;
     height: 100vh;
 
@@ -118,7 +118,6 @@ footer{
     grid-template-rows: 1fr 1fr;
     align-items: center;
     text-align: center;
-    /* height: 85vh; */
 }
 
 .featureCard{
@@ -189,4 +188,21 @@ footer{
 .contactMain{
     display: grid;
     align-items: center;
+}
+
+.notFoundMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px){
+    body{
+        font-size: 1em;
+    }
+
+    #mainDiagram{
+        width: 100%;
+    }
+
 }

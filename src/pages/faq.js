@@ -17,10 +17,6 @@ const FAQ = () => {
 
         <section className="QnA">
           <Qa question="Who created this project?" answer = "We're a team of 2 developers. You can find us on Github!" extras={githubProfiles}></Qa>
-          {/* <ul id="githubProfiles">
-            <li><a href='https://github.com/HikariLight'>HikariLight</a></li>
-            <li><a href='https://github.com/Rahuz7'>Rahuz</a></li>
-          </ul> */}
           <Qa question="Will any of my personal data be collected?" answer="Nope! Briefer is designed to run completely locally. We do not collect any user data."></Qa>
           <Qa question="Will this extension drain my battery/memory?" answer="Nope! The extension doesn't run around the clock, it only does when you use it. So from our testing, the impact on memory and battery should be minimal."></Qa>
           <Qa question="What browsers does Briefer run on?" answer="Briefer supports all Chromium-based browsers. So Google Chrome, Microsoft Edge, Opera, Brave...etc are all supported."></Qa>

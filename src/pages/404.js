@@ -5,7 +5,9 @@ import Layout from "../components/Layout"
 const NotFoundPage = () => {
   return (
     <Layout>
-      <h1>These aren't the pages you're looking for...</h1>
+      <main className="notFoundMain">
+        <h1>These aren't the pages you're looking for...</h1>
+      </main>
     </Layout>
   )
 }
