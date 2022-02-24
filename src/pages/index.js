@@ -12,7 +12,7 @@ const IndexPage = () => {
           <section>
             <h1>Make doing research easier</h1>
             <h3 id="subtitle">Simplify/Summarise/Fuse your web pages</h3>
-            <button id="downloadButton"><a href="https://chrome.google.com/webstore">Download</a></button>
+            <button id="downloadButton"><a href="https://github.com/HikariLight/Briefer">Download</a></button>
           </section>
         </main>
     </Layout>
