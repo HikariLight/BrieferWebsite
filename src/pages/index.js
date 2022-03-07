@@ -10,7 +10,8 @@ const IndexPage = () => {
         <main className="indexMain">
           <img id="mainDiagram" src="main.png" alt="Explainer diagram"></img>
           <section>
-            <h1>Make doing research easier</h1>
+            <h1 id="indexTitle">Make doing research easier</h1>
+            <img id="logo" src="logo.png" alt="logo"></img>
             <h3 id="subtitle">Simplify/Summarise/Fuse your web pages</h3>
             <button id="downloadButton"><a href="https://github.com/HikariLight/Briefer">Download</a></button>
           </section>

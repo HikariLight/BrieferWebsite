@@ -5,9 +5,14 @@
     padding: 0;
 }
 
-html{
-    --darkBlue: #364954;
-    --lightBlue: #58adc9;
+:root{
+    --grey: #364954;
+    --blue: #118AB2;
+    --moderateBlue: #58adc9;
+    --lightBlue: #EBF2FA;
+    --green: #00856F;
+    --purple: #8911B2;
+    
 }
 body{
     font-family: Nunito, Helvetica, Arial;
@@ -26,6 +31,11 @@ header{
     min-height: 5vh;
 }
 
+#headerLogo{
+    height: 3em;
+    width: auto;
+}
+
 nav{
     text-align: right;
     margin: 0 1em;
@@ -36,7 +46,7 @@ ul{
 }
 
 nav ul a {
-    color: var(--darkBlue);
+    color: var(--grey);
 }
 
 nav ul li {
@@ -46,6 +56,30 @@ nav ul li {
 
 main{
     height: 85vh;
+}
+
+#indexTitle{
+    display: inline;
+}
+
+#logo{
+    display: inline;
+    width: 2em;
+    height: auto;
+    margin: 0 1em;
+}
+
+#downloadButton{
+    /* background-color: var(--moderateBlue); */
+    /* border: 1px solid var(--moderateBlue); */
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, var(--purple), var(--blue));
+}
+
+#downloadButton a{
+    /* color: var(--green); */
+    color: white;
 }
 
 section h1, h3{
@@ -71,7 +105,7 @@ footer{
 }
 
 #title{
-    color: var(--darkBlue);
+    color: var(--grey);
     display: inline;
 }
 
@@ -89,17 +123,6 @@ footer{
     margin: 0 auto;
 }
 
-#downloadButton{
-    color: var(--darkBlue);
-    background-color: var(--lightBlue);
-    border: 1px solid var(--lightBlue);
-    border-radius: 25px;
-}
-
-#downloadButton a{
-    color: var(--darkBlue);
-}
-
 #githubProfiles{
     margin: 0.7em 0 0 0;
 }
@@ -110,7 +133,7 @@ footer{
 }
 
 #githubProfiles a{
-    color: var(--darkBlue);
+    color: var(--grey);
 }
 
 .indexMain{
@@ -129,7 +152,7 @@ footer{
     margin: 0 auto;
     padding: 1em;
 
-    border: 1px solid var(--darkBlue);
+    border: 1px solid var(--grey);
 }
 
 .description{
@@ -155,12 +178,12 @@ footer{
     place-items: center;
 }
 
-.darkBlueText{
-    color: var(--darkBlue);
+.greyText{
+    color: var(--grey);
 }
 
-.opaqueDarkBlueText{
-    color: var(--darkBlue);
+.opaquegreyText{
+    color: var(--grey);
     opacity: 0.6;
 }
 
@@ -173,16 +196,16 @@ footer{
     padding: 1em;
     width: 50%;
 
-    color: var(--darkBlue);
-    border: 1px solid var(--darkBlue);
+    color: var(--grey);
+    border: 1px solid var(--grey);
 }
 
 .contactCard a{
-    color: var(--darkBlue);
+    color: var(--grey);
 }
 
 .contactCard a:hover{
-    color: var(--lightBlue);
+    color: var(--moderateBlue);
 }
 
 .contactMain{

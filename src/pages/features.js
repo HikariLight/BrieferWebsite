@@ -10,9 +10,9 @@ const Features = () => {
 
         <div className = "featureMain">
           <FeatureCard className="opaqueDarkBlueText" imgLink="simplify.svg" feature="Simplify" featureText="Take out all the annoying ads and auto-playing videos."></FeatureCard>
-          <FeatureCard imgLink="summarise.svg" feature="Summarise" featureText="You already skim through most articles. This feature does it for you!"></FeatureCard>
-          <FeatureCard imgLink="fuse.svg" feature="Fuse" featureText="Why read 5 pages when you can read just one summarised page with higher quality information?"></FeatureCard>
-          <FeatureCard imgLink="export.svg" feature="Export" featureText="Save your simplified/summarised/fused pages as PDF for reading later."></FeatureCard>
+          <FeatureCard imgLink="summarize.svg" feature="Summarise" featureText="You already skim through most articles. This feature does it for you!"></FeatureCard>
+          <FeatureCard imgLink="fuser.svg" feature="Fuse" featureText="Why read 5 pages when you can read just one summarised page with higher quality information?"></FeatureCard>
+          <FeatureCard imgLink="save.svg" feature="Export" featureText="Save your simplified/summarised/fused pages as PDF for reading later."></FeatureCard>
         </div>
     </Layout>
   )

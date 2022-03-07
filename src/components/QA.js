@@ -5,7 +5,7 @@ const Qa = ({question, answer, extras}) =>{
     return(
         <section>
             <h1 className = "darkBlueText">{question}</h1>
-            <p className = "opaqueDarkBlueText">{answer}</p>
+            <p className = "opaquegreyText">{answer}</p>
             {extras}
         </section>
     )
