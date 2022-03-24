@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Helmet } from "react-helmet"
 import Layout from "../components/Layout"
 import Qa from "../components/QA"
 import "../style/global.css"
@@ -13,7 +14,9 @@ const FAQ = () => {
 
   return (
     <Layout>
-        <title>Briefer | FAQ</title>
+        <Helmet>
+          <title>Briefer | FAQ</title>
+        </Helmet>
 
         <section className="QnA">
           <Qa question="Who created this project?" answer = "We're a team of 2 developers. You can find us on Github!" extras={githubProfiles}></Qa>
