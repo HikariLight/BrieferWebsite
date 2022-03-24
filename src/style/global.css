@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -12,8 +10,8 @@
     --lightBlue: #EBF2FA;
     --green: #00856F;
     --purple: #8911B2;
-    
 }
+
 body{
     font-family: Nunito, Helvetica, Arial;
     font-size: 1.4rem;
@@ -33,6 +31,7 @@ header{
 
 #headerLogo{
     height: 3em;
+    margin: 0 0 0 1em;
     width: auto;
 }
 
@@ -54,8 +53,10 @@ nav ul li {
     margin: 0 1em;
 }
 
-main{
-    height: 85vh;
+.container{
+    height: 80vh;
+    display: grid;
+    align-items: center;
 }
 
 #indexTitle{
@@ -70,15 +71,12 @@ main{
 }
 
 #downloadButton{
-    /* background-color: var(--moderateBlue); */
-    /* border: 1px solid var(--moderateBlue); */
     border: none;
     border-radius: 25px;
-    background-image: linear-gradient(to bottom, var(--purple), var(--blue));
+    background-image: linear-gradient(to right, var(--purple), var(--blue));
 }
 
 #downloadButton a{
-    /* color: var(--green); */
     color: white;
 }
 
@@ -139,13 +137,13 @@ footer{
 .indexMain{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    align-items: center;
+    grid-gap: 1em;
     text-align: center;
 }
 
 .featureCard{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
 
     width: 80%;
     height: 12vh;
@@ -153,6 +151,11 @@ footer{
     padding: 1em;
 
     border: 1px solid var(--grey);
+}
+
+#featureLogo{
+    display: grid;
+    place-items: center;
 }
 
 .description{
@@ -227,5 +230,4 @@ footer{
     #mainDiagram{
         width: 100%;
     }
-
 }
