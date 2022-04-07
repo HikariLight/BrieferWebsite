@@ -1,0 +1,12 @@
+.blogMain{
+    display: grid;
+    grid-gap: 1em;
+}
+
+.blogCard{
+    border: 1px solid var(--purple);
+    padding: 1em;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
