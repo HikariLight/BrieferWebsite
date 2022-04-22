@@ -5,8 +5,8 @@ import * as blogStyle from "../style/Blog.module.css"
 const BlogPostCard = (props) =>{
     return(
         <section className = {blogStyle.blogCard}>
-            <Link to ="/">{props.blogTitle}</Link>
-            <h4>{props.blogSubTitle}</h4>
+            <Link to = {props.post.slug}><h1>{props.post.title}</h1></Link>
+            <p>Posted on: {props.post.publishedAt}</p>
         </section>
     )
 }

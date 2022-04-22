@@ -4,20 +4,39 @@ import Layout from "../components/Layout"
 import BlogPostCard from "../components/BlogPostCard"
 import * as blogStyle from "../style/Blog.module.css"
 import "../style/global.css"
+import { graphql, useStaticQuery } from "gatsby"
 
-const Blog = () =>{
-    return(
-        
+const Blog = () => {
+
+    const data = useStaticQuery(graphql`
+        query {
+            allStrapiPost {
+            edges {
+                node {
+                        id
+                        title
+                        slug
+                        publishedAt
+                    }
+                }
+            }
+        }
+    `);
+
+    return (
+
         <Layout>
             <Helmet>
                 <title>Briefer | Blog</title>
             </Helmet>
 
-        <main className = {blogStyle.blogMain} >
-            <BlogPostCard blogTitle="This is working" blogSubTitle="For the best, I think"></BlogPostCard>
-            <BlogPostCard blogTitle="This is working" blogSubTitle="For the best, I think"></BlogPostCard>
-            <BlogPostCard blogTitle="This is working" blogSubTitle="For the best, I think"></BlogPostCard>
-        </main>
+            <main className={blogStyle.blogMain} >
+
+                {data.allStrapiPost.edges.map((post) => (
+                        <BlogPostCard key = {post.node.id} post = {post.node}></BlogPostCard>
+                ))}
+
+            </main>
 
         </Layout>
     )
