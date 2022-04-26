@@ -1,2 +1,3 @@
-# Clearview Website
-Product website for the Clearview chrome extension
+# Briefer Website
+Product website for the Briefer chrome extension.
+[Link](www.google.com)
