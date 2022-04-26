@@ -236,13 +236,13 @@ footer{
 .blogPostMain{
     width: 80%;
     place-self: center;
+    text-align: center;
 }
 
 .blogPostMain h1{
     margin-bottom: 1em;
     padding: 0.5em;
     color: var(--purple);
-    text-align: center;
     border-bottom: 1px solid var(--purple);
 }
 
