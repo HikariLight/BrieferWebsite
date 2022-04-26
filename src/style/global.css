@@ -42,7 +42,8 @@ nav{
     margin: 0 1em;
 }
 
-.activeLink{
+.activeNavLink{
+    color: var(--purple);
     font-weight: bold;
 }
 
