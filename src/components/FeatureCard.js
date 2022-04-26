@@ -9,7 +9,7 @@ const FeatureCard = ({imgLink, feature, featureText}) => {
             </div>
             
             <article className = "description">
-                <h3>{feature}</h3>
+                <h3 className="purpleText">{feature}</h3>
                 <p>{featureText}</p>
             </article>
         </section>

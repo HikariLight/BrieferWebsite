@@ -140,6 +140,10 @@ footer{
     color: var(--grey);
 }
 
+.purpleText{
+    color: var(--purple);
+}
+
 .indexMain{
     display: grid;
     grid-template-rows: 1fr 1fr;

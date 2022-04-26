@@ -4,8 +4,8 @@ import "../style/global.css"
 const Qa = ({question, answer, extras}) =>{
     return(
         <section>
-            <h1 className = "darkBlueText">{question}</h1>
-            <p className = "opaquegreyText">{answer}</p>
+            <h1 className = "purpleText">{question}</h1>
+            <p className = "darkBlueText">{answer}</p>
             {extras}
         </section>
     )
