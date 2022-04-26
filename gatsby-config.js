@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-      title: `clearview`,
-    siteUrl: `https://www.yourdomain.tld`
+      title: `Briefer`,
+    siteUrl: `https://briefer.netlify.app/`
   },
   plugins: [
     "gatsby-plugin-react-helmet",
