@@ -1,0 +1,30 @@
+.blogPostMain{
+    width: 80%;
+    place-self: center;
+}
+
+.blogPostMain img{
+    width: 80%;
+    height: auto;
+}
+
+.blogPostMain h1{
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    color: var(--purple);
+    border-bottom: 1px solid var(--purple);
+}
+
+.blogPostMain p{
+    line-height: 1.5;
+}
+
+.blogPostMain a{
+    color: var(--blue);
+}
+
+.blogPostBody{
+    width: 70%;
+    margin: 0 auto;
+}
