@@ -1,0 +1,36 @@
+.indexMain{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    text-align: center;
+}
+
+#mainDiagram{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#indexTitle{
+    display: inline;
+}
+
+#subtitle{
+    opacity: 0.5;
+}
+
+#downloadButton{
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, var(--purple), var(--blue));
+}
+
+#downloadButton a{
+    color: white;
+}
+
+@media screen and (max-width: 700px){
+    #mainDiagram{
+        width: 100%;
+    }
+}

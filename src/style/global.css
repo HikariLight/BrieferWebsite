@@ -24,67 +24,10 @@ body{
     background-color: var(--lightBlue);
 }
 
-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 1em;
-    min-height: 5vh;
-}
-
-#headerLogo{
-    height: 3em;
-    margin: 0 0 0 1em;
-    width: auto;
-}
-
-nav{
-    text-align: right;
-    margin: 0 1em;
-}
-
-.activeNavLink{
-    color: var(--purple);
-    font-weight: bold;
-}
-
-ul{
-    list-style: none;
-}
-
-nav ul a {
-    color: var(--grey);
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1em;
-}
-
 .container{
     height: 80vh;
     display: grid;
     align-items: center;
-}
-
-#indexTitle{
-    display: inline;
-}
-
-#logo{
-    display: inline;
-    width: 2em;
-    height: auto;
-    margin: 0 1em;
-}
-
-#downloadButton{
-    border: none;
-    border-radius: 25px;
-    background-image: linear-gradient(to right, var(--purple), var(--blue));
-}
-
-#downloadButton a{
-    color: white;
 }
 
 section h1, h3{
@@ -97,35 +40,6 @@ button{
 
 a{
     text-decoration: none;
-}
-
-footer{
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    font-size: 0.8em;
-    margin: 0.3em 0;
-    min-height: 3vh;
-    text-align: center;
-}
-
-#title{
-    color: var(--grey);
-    display: inline;
-}
-
-#title a:visited{
-    color: inherit;
-}
-
-#subtitle{
-    opacity: 0.5;
-}
-
-#mainDiagram{
-    width: 60%;
-    height: auto;
-    margin: 0 auto;
 }
 
 #githubProfiles{
@@ -143,45 +57,6 @@ footer{
 
 .purpleText{
     color: var(--purple);
-}
-
-.indexMain{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 1em;
-    text-align: center;
-}
-
-.featureCard{
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-
-    width: 80%;
-    height: 12vh;
-    margin: 0 auto;
-    padding: 1em;
-
-    border: 1px solid var(--grey);
-}
-
-#featureLogo{
-    display: grid;
-    place-items: center;
-}
-
-.description{
-    text-align: center;
-}
-
-.logo{
-    height: 100px;
-    width: 100px;
-}
-
-.featureMain{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 1em;
 }
 
 .QnA{
@@ -236,9 +111,5 @@ footer{
 @media screen and (max-width: 700px){
     body{
         font-size: 1em;
-    }
-
-    #mainDiagram{
-        width: 100%;
     }
 }

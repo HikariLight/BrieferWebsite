@@ -1,0 +1,35 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1em;
+    min-height: 5vh;
+}
+
+#headerLogo{
+    height: 3em;
+    margin: 0 0 0 1em;
+    width: auto;
+}
+
+nav{
+    text-align: right;
+    margin: 0 1em;
+}
+
+.activeNavLink{
+    color: var(--purple);
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul a {
+    color: var(--grey);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
