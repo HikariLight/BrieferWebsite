@@ -14,7 +14,7 @@
 
 body{
     font-family: Nunito, Helvetica, Arial;
-    font-size: 1.4rem;
+    font-size: 20px;
     overflow: hidden;
     height: 100vh;
 
@@ -25,12 +25,12 @@ body{
 }
 
 .container{
-    height: 80vh;
+    min-height: 80vh;
     display: grid;
     align-items: center;
 }
 
-section h1, h3{
+h1, h2, h3, h4, h5, h6{
     margin: 0.5em 0;
 }
 
@@ -42,29 +42,8 @@ a{
     text-decoration: none;
 }
 
-#githubProfiles{
-    margin: 0.7em 0 0 0;
-}
-
-#githubProfiles li{
-    display: inline;
-    margin: 0 1em;
-}
-
-#githubProfiles a{
-    color: var(--grey);
-}
-
 .purpleText{
     color: var(--purple);
-}
-
-.QnA{
-    text-align: center;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 1em;
-    place-items: center;
 }
 
 .greyText{
@@ -74,38 +53,6 @@ a{
 .opaquegreyText{
     color: var(--grey);
     opacity: 0.6;
-}
-
-.contactCard{
-    display: grid;
-    place-items: center;
-    text-align: cneter;
-
-    margin: 0 auto;
-    padding: 1em;
-    width: 50%;
-
-    color: var(--grey);
-    border: 1px solid var(--grey);
-}
-
-.contactCard a{
-    color: var(--grey);
-}
-
-.contactCard a:hover{
-    color: var(--moderateBlue);
-}
-
-.contactMain{
-    display: grid;
-    align-items: center;
-}
-
-.notFoundMain{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media screen and (max-width: 700px){

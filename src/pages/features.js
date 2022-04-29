@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/Layout"
 import FeatureCard from "../components/FeatureCard"
 import "../style/global.css"
-import { featureMain } from "../style/Features.module.css"
+import * as featuresStyle from "../style/Features.module.css"
 
 const Features = () => {
   return (
@@ -13,7 +13,7 @@ const Features = () => {
           <title>Briefer | Features</title>
         </Helmet>
 
-        <main className = {featureMain}>
+        <main className = {featuresStyle.featureMain}>
           <FeatureCard className="opaqueDarkBlueText" imgLink="simplify.svg" feature="Simplify" featureText="Take out all the annoying ads and auto-playing videos, and even bypass some paywalls!"></FeatureCard>
           <FeatureCard imgLink="summarize.svg" feature="Summarise" featureText="You already skim through most articles. This feature does it for you!"></FeatureCard>
           <FeatureCard imgLink="fuser.svg" feature="Fuse" featureText="Why read 5 pages when you can read just one summarised page with higher quality information?"></FeatureCard>

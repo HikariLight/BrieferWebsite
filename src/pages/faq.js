@@ -3,11 +3,12 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/Layout"
 import Qa from "../components/QA"
 import "../style/global.css"
+import * as faqStyle from "../style/FAQ.module.css"
 
 const FAQ = () => {
 
   let githubProfiles = 
-    <ul id="githubProfiles">
+    <ul id = {faqStyle.githubProfiles}>
       <li><a href='https://github.com/HikariLight'>HikariLight</a></li>
       <li><a href='https://github.com/Rahuz7'>Rahuz</a></li>
     </ul>
@@ -18,7 +19,7 @@ const FAQ = () => {
           <title>Briefer | FAQ</title>
         </Helmet>
 
-        <section className="QnA">
+        <section className = {faqStyle.QnA}>
           <Qa question="Who created this project?" answer = "We're a team of 2 developers. You can find us on Github!" extras={githubProfiles}></Qa>
           <Qa question="Why did we create this project?" answer = "They say the best software is the kind that solves your own problems. We thought Briefer could be useful to us, so why not share it with everyone else under an Open Source license too."></Qa>
           <Qa question="Will any of my personal data be collected?" answer="Nope! Briefer is designed to run completely locally. We do not collect any user data."></Qa>

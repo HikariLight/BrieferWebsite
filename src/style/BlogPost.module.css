@@ -16,12 +16,20 @@
     border-bottom: 1px solid var(--purple);
 }
 
+.blogPostMain h3{
+    color: var(--purple);
+}
+
 .blogPostMain p{
     line-height: 1.5;
 }
 
 .blogPostMain a{
     color: var(--blue);
+}
+
+.blogPostMain ul{
+    padding-left: 2em;
 }
 
 .blogPostBody{

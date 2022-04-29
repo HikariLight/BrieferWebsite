@@ -1,6 +1,6 @@
 import * as React from "react"
 import "../style/global.css"
-import * as featureCardStyle from "../style/Features.module.css"
+import * as featureCardStyle from "../style/FeatureCard.module.css"
 
 const FeatureCard = ({imgLink, feature, featureText}) => {
     return(

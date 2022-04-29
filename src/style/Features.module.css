@@ -1,31 +1,4 @@
 .featureMain{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 1em;
-}
-
-.featureCard{
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-
-    width: 80%;
-    height: 12vh;
-    margin: 0 auto;
-    padding: 1em;
-
-    border: 1px solid var(--grey);
-}
-
-#featureLogoWrapper{
-    display: grid;
-    place-items: center;
-}
-
-.featureLogo{
-    height: 100px;
-    width: 100px;
-}
-
-.featureDescription{
-    text-align: center;
 }

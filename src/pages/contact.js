@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/Layout"
 import ContactCard from "../components/ContactCard"
 import "../style/global.css"
+import * as contactStyle from "../style/Contact.module.css"
 
 const Contact = () => {
   return (
@@ -11,7 +12,7 @@ const Contact = () => {
           <title>Briefer | Contact</title>
         </Helmet>
 
-        <main className="contactMain">
+        <main className = {contactStyle.contactMain}>
           <ContactCard></ContactCard>
         </main>
     </Layout>

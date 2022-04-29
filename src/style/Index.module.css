@@ -1,6 +1,5 @@
 .indexMain{
     display: grid;
-    grid-template-rows: 1fr 1fr;
     grid-gap: 1em;
     text-align: center;
 }
@@ -16,7 +15,8 @@
 }
 
 #subtitle{
-    opacity: 0.5;
+    color: var(--grey);
+    opacity: 0.7;
 }
 
 #downloadButton{

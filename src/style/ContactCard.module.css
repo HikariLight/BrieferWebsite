@@ -1,0 +1,20 @@
+.contactCard{
+    display: grid;
+    place-items: center;
+    text-align: cneter;
+
+    margin: 0 auto;
+    padding: 1em;
+    width: 50%;
+
+    color: var(--grey);
+    border: 1px solid var(--grey);
+}
+
+.contactCard a{
+    color: var(--grey);
+}
+
+.contactCard a:hover{
+    color: var(--moderateBlue);
+}

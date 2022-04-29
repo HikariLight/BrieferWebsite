@@ -1,0 +1,19 @@
+.QnA{
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1em;
+}
+
+#githubProfiles{
+    margin: 0.7em 0 0 0;
+}
+
+#githubProfiles li{
+    display: inline;
+    margin: 0 1em;
+}
+
+#githubProfiles a{
+    color: var(--grey);
+}
