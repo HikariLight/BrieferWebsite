@@ -1,12 +1,12 @@
 import * as React from "react"
 import "../style/global.css"
 
-const Qa = ({question, answer, extras}) =>{
+const Qa = (props) =>{
     return(
         <section>
-            <h1 className = "purpleText">{question}</h1>
-            <p className = "darkBlueText">{answer}</p>
-            {extras}
+            <h1 className = "purpleText">{props.question}</h1>
+            <p className = "darkBlueText">{props.answer}</p>
+            {props.extras}
         </section>
     )
 }
